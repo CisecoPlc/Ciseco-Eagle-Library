@@ -922,7 +922,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SRF">
+<deviceset name="SRF" prefix="U">
 <description>SRF Wireless UART Serial Data Module.&lt;br&gt;
 www.ciseco.co.uk</description>
 <gates>
@@ -1071,7 +1071,7 @@ www.ciseco.co.uk</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="XRF">
+<deviceset name="XRF" prefix="U">
 <description>XRF Wireless UART Serial Data Module.&lt;br&gt;
 www.ciseco.co.uk</description>
 <gates>
@@ -1188,7 +1188,7 @@ www.ciseco.co.uk</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RFµ-328">
+<deviceset name="RFµ-328" prefix="U">
 <gates>
 <gate name="G$1" symbol="RFU-328" x="0" y="0"/>
 </gates>
@@ -1222,7 +1222,7 @@ www.ciseco.co.uk</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RFµ-328-SMD">
+<deviceset name="RFµ-328-SMD" prefix="U">
 <gates>
 <gate name="G$1" symbol="RFU-328-SMD" x="0" y="0"/>
 </gates>
