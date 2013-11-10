@@ -801,6 +801,88 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="12.25" y1="0.8" x2="12.25" y2="0" width="0.2032" layer="51"/>
 <wire x1="9.75" y1="20.55" x2="9.75" y2="1.4" width="0.2032" layer="51"/>
 </package>
+<package name="SRF-LANDING-NO-ANT-1.0A-MOVE">
+<wire x1="0" y1="2.25" x2="0" y2="1.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="4.25" x2="0" y2="3.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="6.25" x2="0" y2="5.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="8.25" x2="0" y2="7.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="10.25" x2="0" y2="9.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="12.25" x2="0" y2="11.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="14.25" x2="0" y2="13.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="-0.1" x2="0" y2="1.17" width="0.127" layer="21"/>
+<wire x1="0" y1="1.17" x2="0" y2="1.75" width="0.127" layer="51"/>
+<wire x1="0" y1="2.25" x2="0" y2="3.75" width="0.127" layer="51"/>
+<wire x1="0" y1="4.25" x2="0" y2="5.75" width="0.127" layer="51"/>
+<wire x1="0" y1="6.25" x2="0" y2="7.75" width="0.127" layer="51"/>
+<wire x1="0" y1="8.25" x2="0" y2="9.75" width="0.127" layer="51"/>
+<wire x1="0" y1="10.25" x2="0" y2="11.75" width="0.127" layer="51"/>
+<wire x1="0" y1="12.25" x2="0" y2="13.75" width="0.127" layer="51"/>
+<wire x1="0" y1="14.25" x2="0" y2="14.85" width="0.127" layer="51"/>
+<wire x1="15.9" y1="1.75" x2="15.9" y2="2.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="3.75" x2="15.9" y2="4.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="5.75" x2="15.9" y2="6.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="7.75" x2="15.9" y2="8.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="9.75" x2="15.9" y2="10.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="11.75" x2="15.9" y2="12.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="13.75" x2="15.9" y2="14.25" width="0.127" layer="51" curve="-180"/>
+<wire x1="15.9" y1="-0.1" x2="15.9" y2="1.17" width="0.127" layer="21"/>
+<wire x1="15.9" y1="1.17" x2="15.9" y2="1.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="2.25" x2="15.9" y2="3.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="4.25" x2="15.9" y2="5.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="6.25" x2="15.9" y2="7.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="8.25" x2="15.9" y2="9.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="10.25" x2="15.9" y2="11.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="12.25" x2="15.9" y2="13.75" width="0.127" layer="51"/>
+<wire x1="15.9" y1="14.25" x2="15.9" y2="14.85" width="0.127" layer="51"/>
+<wire x1="15.9" y1="14.85" x2="15.9" y2="16" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-0.1" x2="2.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="3.7" y1="-0.1" x2="4.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="5.7" y1="-0.1" x2="6.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="7.7" y1="-0.1" x2="8.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="9.7" y1="-0.1" x2="10.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="11.7" y1="-0.1" x2="12.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="13.7" y1="-0.1" x2="14.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
+<wire x1="0" y1="-0.1" x2="1.1" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.1" x2="1.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="2.2" y1="-0.1" x2="3.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="4.2" y1="-0.1" x2="5.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="6.2" y1="-0.1" x2="7.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="8.2" y1="-0.1" x2="9.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="10.2" y1="-0.1" x2="11.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="12.2" y1="-0.1" x2="13.7" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="14.2" y1="-0.1" x2="14.8" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="14.8" y1="-0.1" x2="15.9" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="16" x2="13.1" y2="16" width="0.127" layer="21"/>
+<smd name="1" x="15.9" y="2" dx="2" dy="1.27" layer="1"/>
+<smd name="2" x="15.9" y="4" dx="2" dy="1.27" layer="1"/>
+<smd name="3" x="15.9" y="6" dx="2" dy="1.27" layer="1"/>
+<smd name="4" x="15.9" y="8" dx="2" dy="1.27" layer="1"/>
+<smd name="5" x="15.9" y="10" dx="2" dy="1.27" layer="1"/>
+<smd name="6" x="15.9" y="12" dx="2" dy="1.27" layer="1"/>
+<smd name="7" x="15.9" y="14" dx="2" dy="1.27" layer="1"/>
+<smd name="8" x="0" y="14" dx="2" dy="1.27" layer="1"/>
+<smd name="9" x="0" y="12" dx="2" dy="1.27" layer="1"/>
+<smd name="10" x="0" y="10" dx="2" dy="1.27" layer="1"/>
+<smd name="11" x="0" y="8" dx="2" dy="1.27" layer="1"/>
+<smd name="12" x="0" y="6" dx="2" dy="1.27" layer="1"/>
+<smd name="13" x="0" y="4" dx="2" dy="1.27" layer="1"/>
+<smd name="14" x="0" y="2" dx="2" dy="1.27" layer="1"/>
+<smd name="15" x="1.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="16" x="3.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="17" x="5.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="18" x="7.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="19" x="9.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="20" x="11.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="21" x="13.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<wire x1="3" y1="26.36" x2="12.9" y2="26.36" width="0.127" layer="49"/>
+<wire x1="0" y1="16" x2="2" y2="16" width="0.127" layer="21"/>
+<wire x1="2" y1="16" x2="3" y2="17" width="0.127" layer="49" curve="90"/>
+<wire x1="3" y1="17" x2="3" y2="26.36" width="0.127" layer="49"/>
+<wire x1="15.9" y1="16" x2="13.9" y2="16" width="0.127" layer="21"/>
+<wire x1="13.9" y1="16" x2="12.9" y2="17" width="0.127" layer="49" curve="-90"/>
+<wire x1="12.9" y1="17" x2="12.9" y2="26.36" width="0.127" layer="49"/>
+<wire x1="0" y1="14.85" x2="0" y2="16" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SRF">
@@ -1042,6 +1124,34 @@ www.ciseco.co.uk</description>
 </technologies>
 </device>
 <device name="-LANDING-NO-ANT-1.0A" package="SRF-LANDING-NO-ANT-1.0A">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="15"/>
+<connect gate="G$1" pin="3V3" pad="9"/>
+<connect gate="G$1" pin="ANT" pad="8"/>
+<connect gate="G$1" pin="DVDD/DP" pad="19"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="P0_0" pad="16"/>
+<connect gate="G$1" pin="P0_1" pad="17"/>
+<connect gate="G$1" pin="P0_2/RX" pad="2"/>
+<connect gate="G$1" pin="P0_3/TX" pad="3"/>
+<connect gate="G$1" pin="P0_4/CTS_IN" pad="18"/>
+<connect gate="G$1" pin="P0_5/DM" pad="20"/>
+<connect gate="G$1" pin="P0_7/5" pad="21"/>
+<connect gate="G$1" pin="P1_3" pad="11"/>
+<connect gate="G$1" pin="P1_4/SS" pad="14"/>
+<connect gate="G$1" pin="P1_5/SCK" pad="13"/>
+<connect gate="G$1" pin="P1_6/MOSI" pad="12"/>
+<connect gate="G$1" pin="P1_7/MISO" pad="1"/>
+<connect gate="G$1" pin="P2_0" pad="4"/>
+<connect gate="G$1" pin="P2_1/DD" pad="5"/>
+<connect gate="G$1" pin="P2_2/DC" pad="6"/>
+<connect gate="G$1" pin="P2_3" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LANDING-NO-ANT-1.0A-MOVE" package="SRF-LANDING-NO-ANT-1.0A-MOVE">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="15"/>
 <connect gate="G$1" pin="3V3" pad="9"/>
