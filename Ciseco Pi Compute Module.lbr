@@ -1930,6 +1930,10 @@ Source: http://catalog.tycoelectronics.com .. JPN_CD_1376408_S.pdf</description>
 <rectangle x1="-3.2" y1="-0.95" x2="-1.3" y2="0.95" layer="31"/>
 <rectangle x1="1.3" y1="-0.95" x2="3.2" y2="0.95" layer="31"/>
 <rectangle x1="-0.95" y1="-3.2" x2="0.95" y2="-1.3" layer="31"/>
+<rectangle x1="-4.1" y1="-4.1" x2="-3.7" y2="3.7" layer="41"/>
+<rectangle x1="-0.4" y1="0" x2="0" y2="7.8" layer="41" rot="R90"/>
+<rectangle x1="3.7" y1="-3.7" x2="4.1" y2="4.1" layer="41" rot="R180"/>
+<rectangle x1="0" y1="-7.8" x2="0.4" y2="0" layer="41" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -2422,6 +2426,10 @@ Footprint is unproven and no matching part confimed as of yet</description>
 </devices>
 </deviceset>
 <deviceset name="LAN951X" prefix="U">
+<description>LAN951X &lt;br/&gt;
+LAN9512 has two downstream USB ports&lt;br/&gt;
+LAN9514 has four downstream USB ports&lt;br/&gt;
+The same footprint is use for both but for LAN9512 (2 port) accpications the _USB1 block signals should be NC</description>
 <gates>
 <gate name="_PWR" symbol="LAN915X_PWR" x="-35.56" y="7.62"/>
 <gate name="_ETH" symbol="LAN915X_ETH" x="22.86" y="17.78"/>
