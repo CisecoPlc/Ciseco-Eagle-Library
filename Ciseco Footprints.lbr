@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6271,6 +6271,11 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="12.25" y1="21.45" x2="5.85" y2="27.8" width="0.127" layer="51"/>
 <wire x1="12.25" y1="21.25" x2="12.25" y2="21.45" width="0.127" layer="51"/>
 </package>
+<package name="JTICHIPANT">
+<smd name="NC" x="3.51" y="-0.2" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="FEED" x="-3.51" y="-0.2" dx="2" dy="1" layer="1" rot="R90"/>
+<rectangle x1="-1.8415" y1="-1.1525" x2="-1.3335" y2="0.7525" layer="51" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SRF">
@@ -7051,6 +7056,32 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <text x="-7.62" y="8.89" size="1.27" layer="95">&gt;Name</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
+<symbol name="JTICHIPANT">
+<description>JohansonTechnology (JTI) Chip Antenna&lt;br/&gt;
+&lt;br/&gt;
+For 868Mhz&lt;br/&gt;
+JTI part No. 868AT43A0020E&lt;br/&gt;
+Farnel	1885493&lt;br/&gt;
+&lt;br/&gt;
+For 915Mhz&lt;br/&gt;
+JTI part No. 0915AT43A0026E&lt;br/&gt;
+Farnel	1885494&lt;br/&gt;
+&lt;br/&gt;
+For 433Mhz you need a diffrent footprint&lt;br/&gt;</description>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="12.7" visible="pad" length="short" rot="R180"/>
+<pin name="P$2" x="0" y="-15.24" visible="pad" length="short" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SRF" prefix="U">
@@ -7677,6 +7708,22 @@ www.ciseco.co.uk</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JTICHIPANT">
+<gates>
+<gate name="G$1" symbol="JTICHIPANT" x="5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="JTICHIPANT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="NC"/>
+<connect gate="G$1" pin="P$2" pad="FEED"/>
 </connects>
 <technologies>
 <technology name=""/>
