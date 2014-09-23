@@ -7516,6 +7516,33 @@ www.ciseco.co.uk</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SOCKET-V2.0" package="RFµ-SOCKET-V2.0">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="A0" pad="4"/>
+<connect gate="G$1" pin="A1" pad="15"/>
+<connect gate="G$1" pin="A2" pad="14"/>
+<connect gate="G$1" pin="A3" pad="13"/>
+<connect gate="G$1" pin="A4" pad="12"/>
+<connect gate="G$1" pin="A5" pad="11"/>
+<connect gate="G$1" pin="D0/RX" pad="3"/>
+<connect gate="G$1" pin="D1/TX" pad="2"/>
+<connect gate="G$1" pin="D10/SS" pad="9"/>
+<connect gate="G$1" pin="D11/MOSI" pad="7"/>
+<connect gate="G$1" pin="D12/MISO" pad="6"/>
+<connect gate="G$1" pin="D13/SCK" pad="8"/>
+<connect gate="G$1" pin="D2" pad="20"/>
+<connect gate="G$1" pin="D3/PWM" pad="19"/>
+<connect gate="G$1" pin="D5/PWM" pad="18"/>
+<connect gate="G$1" pin="D6/PWM" pad="17"/>
+<connect gate="G$1" pin="D9/PWM" pad="16"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RFµ-328-SMD" prefix="U">
